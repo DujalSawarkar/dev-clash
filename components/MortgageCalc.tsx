@@ -34,10 +34,10 @@ function MortgageCalc() {
     });
   };
   return (
-    <div>
+    <div className="fixed bottom-10 right-0 z-100">
       <Sheet>
         <SheetTrigger>
-          <div className="aside w-[80px] h-[80px] bg-slate-300 rounded-s-2xl fixed bottom-10 right-0 shadow-lg flex justify-center items-center">
+          <div className="aside w-[80px] h-[80px] bg-slate-300 rounded-s-2xl  shadow-lg flex justify-center items-center">
             <Calculator size={38} />
           </div>
         </SheetTrigger>

@@ -23,10 +23,10 @@ export default function Home() {
     <>
       <Hero />
       <section className="flex bg-slate-200 w-full py-10">
-        <div className="w-11/12 md:w-10/12 mx-auto h-fit relative flex flex-col md:flex-row">
-          <div className="w-full h-fit relative">
-            <div className="absolute -left-10 z-10 bg-white p-2 flex rounded-md mt-10 hidden md:flex">
-              <div className="rounded-full bg-slate-100 w-fit p-2">
+        <div className="w-11/12 md:w-10/12 mx-auto h-fit flex flex-col md:flex-row">
+          <div className="w-full h-fit">
+            <div className="absolute left-5 bg-white p-2 flex rounded-md mt-10 md:flex lg:z-10">
+              <div className="rounded-full bg-slate-100 w-fit p-2 ">
                 <BadgeCheck size={33} />
               </div>
               <div className="text-base font-semibold mx-2">
@@ -38,7 +38,7 @@ export default function Home() {
             </div>
 
             {/* Responsive background image */}
-            <div className="bg-[url('/images/property-4.jpg')] w-full md:w-9/12 h-[300px] md:h-[520px] bg-cover bg-center rounded-lg"></div>
+            <div className="bg-[url('/images/property-4.jpg')] w-full md:w-9/12 h-[300px] md:h-[520px] bg-cover bg-center rounded-lg "></div>
           </div>
 
           {/* Tabs Section */}
